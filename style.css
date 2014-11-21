@@ -1,0 +1,266 @@
+* {
+  outline: 1px solid red;
+}
+
+html, body {
+height: 100vh;
+margin:0;
+}
+/*This is my header*/
+.header{
+  height:200px;
+  border:solid 2px;
+  background-color: #FFD700  ;
+}
+
+#name{
+  height: 40px;
+  width: 400px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-family: times;
+}
+
+#contact{
+  height: 20px;
+  width:90px;
+  border-radius:5px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1200px;
+  font-size: 20;
+  background-color: #C3C1AD;
+  text-align: center;
+  padding: 5px;
+}
+
+#contact:hover{
+  opacity: 0.5;
+}
+
+#resume{
+  height: 20px;
+  width:90px;
+  border-radius:5px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1305px;
+  font-size: 20;
+  background-color: #C3C1AD;
+  text-align: center;
+  padding: 5px;
+}
+#resume:hover{
+  opacity: 0.5;
+
+}
+#resources{
+  height: 20px;
+  width:90px;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1410px;
+  font-size: 20;
+  background-color: #C3C1AD;
+  text-align: center;
+  padding: 5px;
+}
+#resources:hover{
+  opacity: 0.5;
+}
+#bar{
+  height:10px;
+  width:100%;
+  margin-top: 195px;
+  background-color: black;
+}
+/*This the body with the pictures*/
+.container {
+  width: 100%;
+}
+
+.photo1,.photo2,.photo3,.photo4,.photo5,.photo6,.photo7,.photo8,.photo9,.photo10{
+  height: 285px;
+  width: 20%;
+  float: left;
+}
+
+.photo1{
+  background-image:url('dallas.jpg');
+  background-size: cover;
+}
+.photo1:hover{
+  opacity:0.7;
+}
+.photo2{
+  background-size:cover;
+  background-image: url('unt.png');
+  display: no-repeat;
+}
+.photo2:hover{
+  opacity: 0.7;
+  }
+  .photo3{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+.photo3:hover{
+  opacity: 0.7;
+  }
+
+.photo4{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+
+.photo4:hover{
+  opacity: 0.7;
+}
+
+.photo5{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+.photo5:hover{
+  opacity: 0.7;
+}
+
+.photo6{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+  z-index: -1000;
+}
+.photo6:hover{
+  opacity: 0.7;
+}
+
+.photo7{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+.photo7:hover{
+  opacity: 0.7;
+}
+.photo8{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+.photo8:hover{
+  opacity: 0.7;
+}
+.photo9{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+.photo9:hover{
+  opacity: 0.7;
+}
+.photo10{
+  background-size:cover;
+  background-image: url('runner.jpg');
+  display: no-repeat;
+}
+.photo10:hover{
+  opacity: 0.7;
+}
+
+/* Picture Captions */
+
+#d1 {
+    height: 10%;
+    width: 100%;
+    margin-top: 500px;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    color: white;
+    outline: 1px solid green;
+    z-index: 1000;
+    /*display: none;*/
+}
+  #d2{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  #d3{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  #d4{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  #d5{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  #d6{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+ }
+
+  #d7{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  #d8{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+
+  }
+  #d9{
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  #d10
+  {
+    height: 15%;
+    width: 100%;
+    margin-top: 240px;
+    text-align: center;
+    color: white;
+    display: none;
+  }
