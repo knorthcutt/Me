@@ -1,7 +1,12 @@
 $(document).ready(function(){
 	
 	$(".photo1").mouseenter(function(){
-		$("#d1").animate({bottom: "250px"}, 500);
+		$("#d1").fadeIn('slow');
+	});
+
+	$(".photo1").mouseleave(function(){
+		$("#d1").fadeOut('slow');
+
 	});
 
 });
